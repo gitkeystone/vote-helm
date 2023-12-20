@@ -15,10 +15,10 @@ OPTION:
   OPTION_A: "INFOQQ"
   OPTION_B: "GeekBang"
 RESULT:
-  # IMAGE: harbor.wangwei.devopscamp.us/vote/result
-  # IMAGE: harbor.canzhi.gkdevopscamp.uk/vote/result
-  IMAGE: lyzhang1999/result
-  TAG: env
+  # IMAGE: lyzhang1999/result
+  # TAG: env
+  IMAGE: harbor.canzhi.gkdevopscamp.uk/vote/result
+  TAG: latest
 VOTE:
   IMAGE: lyzhang1999/vote
   TAG: env
