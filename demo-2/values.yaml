@@ -1,5 +1,6 @@
 imageRegistry:
-  server: "harbor.wangwei.devopscamp.us"
+  # server: "harbor.wangwei.devopscamp.us"
+  server: "harbor.canzhi.gkdevopscamp.uk"
   username: admin
   password: Harbor12345
 HOST: demo.local
@@ -14,7 +15,8 @@ OPTION:
   OPTION_A: "INFOQQ"
   OPTION_B: "GeekBang"
 RESULT:
-  IMAGE: harbor.wangwei.devopscamp.us/vote/result
+  # IMAGE: harbor.wangwei.devopscamp.us/vote/result
+  IMAGE: harbor.canzhi.gkdevopscamp.uk/vote/result
   TAG: env
 VOTE:
   IMAGE: lyzhang1999/vote
