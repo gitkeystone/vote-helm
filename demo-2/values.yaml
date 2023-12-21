@@ -18,7 +18,7 @@ RESULT:
   # IMAGE: lyzhang1999/result
   # TAG: env
   IMAGE: harbor.canzhi.gkdevopscamp.uk/vote/result
-  TAG: latest
+  TAG: main-ca2c5e087f69265032d49ddd788725e9e736f372
 VOTE:
   IMAGE: lyzhang1999/vote
   TAG: env
