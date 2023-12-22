@@ -10,7 +10,7 @@ helm:
     value: harbor.canzhi.gkdevopscamp.uk/vote/vote
     forcestring: true
   - name: VOTE.TAG
-    value: latest
+    value: dev-c675c2c76131ed6abae49a92444c8d5a48185551
     forcestring: true
   - name: WORKER.IMAGE
     value: harbor.canzhi.gkdevopscamp.uk/vote/worker
