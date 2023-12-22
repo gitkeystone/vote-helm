@@ -16,5 +16,5 @@ helm:
     value: harbor.canzhi.gkdevopscamp.uk/vote/worker
     forcestring: true
   - name: WORKER.TAG
-    value: latest
+    value: staging-71c34cddbecc391944e80848995d33863714f5e8
     forcestring: true
