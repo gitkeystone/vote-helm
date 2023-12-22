@@ -4,5 +4,5 @@ helm:
     value: harbor.canzhi.gkdevopscamp.uk/vote/result
     forcestring: true
   - name: RESULT.TAG
-    value: main-e6b14aca57e3fecccc5cc2af241aea0721a33dee
+    value: main-d4274e016f028f442cebb24c22097988de732243
     forcestring: true
