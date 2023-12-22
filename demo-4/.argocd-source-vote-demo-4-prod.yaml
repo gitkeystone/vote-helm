@@ -1,0 +1,8 @@
+helm:
+  parameters:
+  - name: RESULT.IMAGE
+    value: harbor.canzhi.gkdevopscamp.uk/vote/result
+    forcestring: true
+  - name: RESULT.TAG
+    value: main-d4274e016f028f442cebb24c22097988de732243
+    forcestring: true
