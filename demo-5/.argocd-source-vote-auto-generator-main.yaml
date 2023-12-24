@@ -1,0 +1,20 @@
+helm:
+  parameters:
+  - name: RESULT.IMAGE
+    value: harbor.canzhi.gkdevopscamp.com/vote/result
+    forcestring: true
+  - name: RESULT.TAG
+    value: main-d1f7a847f7da6e01705e0a8c2db83dec048b5999
+    forcestring: true
+  - name: VOTE.IMAGE
+    value: harbor.canzhi.gkdevopscamp.com/vote/vote
+    forcestring: true
+  - name: VOTE.TAG
+    value: main-d1f7a847f7da6e01705e0a8c2db83dec048b5999
+    forcestring: true
+  - name: WORKER.IMAGE
+    value: harbor.canzhi.gkdevopscamp.com/vote/worker
+    forcestring: true
+  - name: WORKER.TAG
+    value: main-d1f7a847f7da6e01705e0a8c2db83dec048b5999
+    forcestring: true
