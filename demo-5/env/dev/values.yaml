@@ -1,5 +1,5 @@
 imageRegistry:
-  server: "harbor.canzhi.gkdevopscamp.uk"
+  server: "harbor.canzhi.gkdevopscamp.com"
   username: admin
   password: Harbor12345
 
