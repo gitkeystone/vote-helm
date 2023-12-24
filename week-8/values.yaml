@@ -1,5 +1,5 @@
 imageRegistry:
-  server: "harbor.wangwei.devopscamp.us"
+  server: "harbor.canzhi.gkdevopscamp.com"
   username: admin
   password: Harbor12345
 
@@ -19,13 +19,13 @@ OPTION:
   OPTION_B: "GeekBang"
 
 RESULT:
-  IMAGE: harbor.wangwei.devopscamp.us/vote/result
+  IMAGE: harbor.canzhi.gkdevopscamp.com/vote/result
   TAG: latest
 
 VOTE:
-  IMAGE: harbor.wangwei.devopscamp.us/vote/vote
+  IMAGE: harbor.canzhi.gkdevopscamp.com/vote/vote
   TAG: latest
 
 WORKER:
-  IMAGE: harbor.wangwei.devopscamp.us/vote/worker
+  IMAGE: harbor.canzhi.gkdevopscamp.com/vote/worker
   TAG: latest
