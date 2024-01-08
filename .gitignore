@@ -1,2 +1,2 @@
-
-
+.argocd-*.yaml
+.argocd-source-vote-dev.yaml
