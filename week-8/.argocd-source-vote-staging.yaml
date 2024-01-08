@@ -10,7 +10,7 @@ helm:
     value: harbor.george.gkdevopscamp.uk/vote/vote
     forcestring: true
   - name: VOTE.TAG
-    value: latest
+    value: staging-a1b2974737c4a0ead5e9465399a357e702bf3fe6
     forcestring: true
   - name: WORKER.IMAGE
     value: harbor.george.gkdevopscamp.uk/vote/worker
