@@ -29,3 +29,6 @@ VOTE:
 WORKER:
   IMAGE: harbor.canzhi.gkdevopscamp.uk/vote/worker
   TAG: latest
+
+
+
