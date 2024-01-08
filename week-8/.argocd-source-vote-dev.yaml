@@ -1,20 +1,20 @@
 helm:
   parameters:
   - name: RESULT.IMAGE
-    value: harbor.canzhi.gkdevopscamp.com/vote/result
+    value: harbor.george.gkdevopscamp.uk/vote/result
     forcestring: true
   - name: RESULT.TAG
-    value: dev-8e038b8a6cbd2bc5f1adb848f9fa9d6fa537ee71
+    value: dev-a1b2974737c4a0ead5e9465399a357e702bf3fe6
     forcestring: true
   - name: VOTE.IMAGE
-    value: harbor.canzhi.gkdevopscamp.com/vote/vote
+    value: harbor.george.gkdevopscamp.uk/vote/vote
     forcestring: true
   - name: VOTE.TAG
-    value: dev-8de9b1fb5208bccacb14838fcfc47b35cd254bc5
+    value: dev-a1b2974737c4a0ead5e9465399a357e702bf3fe6
     forcestring: true
   - name: WORKER.IMAGE
-    value: harbor.canzhi.gkdevopscamp.com/vote/worker
+    value: harbor.george.gkdevopscamp.uk/vote/worker
     forcestring: true
   - name: WORKER.TAG
-    value: dev-8de9b1fb5208bccacb14838fcfc47b35cd254bc5
+    value: dev-a1b2974737c4a0ead5e9465399a357e702bf3fe6
     forcestring: true
