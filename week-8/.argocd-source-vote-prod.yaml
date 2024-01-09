@@ -1,0 +1,20 @@
+helm:
+  parameters:
+  - name: RESULT.IMAGE
+    value: harbor.george.gkdevopscamp.uk/vote/result
+    forcestring: true
+  - name: RESULT.TAG
+    value: prod-a1b2974737c4a0ead5e9465399a357e702bf3fe6
+    forcestring: true
+  - name: VOTE.IMAGE
+    value: harbor.george.gkdevopscamp.uk/vote/vote
+    forcestring: true
+  - name: VOTE.TAG
+    value: latest
+    forcestring: true
+  - name: WORKER.IMAGE
+    value: harbor.george.gkdevopscamp.uk/vote/worker
+    forcestring: true
+  - name: WORKER.TAG
+    value: latest
+    forcestring: true
